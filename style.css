@@ -1,0 +1,28 @@
+body{
+    background-image: url("ugh.jpg");
+}
+
+#filter{
+    height: 50px;
+    width: 200px;
+    font-size: large;
+}
+.btn-success:hover{
+    background-color: rgb(100, 237, 173);
+}
+.btn-info:hover{
+    background-color: rgb(0, 153, 255);
+}
+Canvas{
+ animation-name: anything;
+ animation-duration: 7s;
+ animation-iteration-count: infinite;
+}
+@keyframes anything{
+    0%{box-shadow: 1px 1px 70px rgb(255, 162, 235);}
+    16.6%{box-shadow: 1px 1px 70px rgb(255, 191, 118);}
+    33.2%{box-shadow: 1px 1px 70px rgb(255, 253, 118);}
+    49.8%{box-shadow: 1px 1px 70px rgb(118, 255, 175);}
+    66.4%{box-shadow: 1px 1px 70px rgb(118, 234, 255);}
+    100%{box-shadow: 1px 1px 70px rgb(159, 132, 255);}
+}
